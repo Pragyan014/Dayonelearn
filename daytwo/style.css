@@ -1,0 +1,28 @@
+p{
+    background-color: rgba(21, 161, 231, 0.767);
+    color: rgb(81, 67, 49);
+}
+.First{
+    background-color: aqua;
+    color:brown
+}
+.second{
+    background-color: olivedrab;
+    color: blue;
+}
+.btn{
+    background-color: rgb(194, 25, 25);
+    color: rgb(80, 168, 176);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(0, 255, 64);
+    color: rgb(42, 144, 165);
+}
+
+.btn a{
+    text-decoration: none;
+    
+}
