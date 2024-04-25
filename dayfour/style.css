@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: orange;
+    position: relative;
+
+}
+.fa-twitter{
+    background-color: brown;
+    color: rgb(249, 243, 243);
+
+}
+.maindiv{
+        background-color: beige;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        padding: 50px;
+}
+.maindiv div{
+    background-color: rgb(255, 214, 196);
+    text-align: center;
+   
+}
+/* .tmid{
+    background-color: bisque;
+} */
+.arrowup i{
+    background-color: rgb(47, 255, 0);
+    color: white;
+   padding: 10px;
+   border-radius: 50%;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.arrowup{
+    display: block;
+    position: absolute;
+    z-index: 3;
+    top: 90%;
+    right: 2%;
+    position: fixed;
+}
+

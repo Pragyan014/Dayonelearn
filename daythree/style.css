@@ -1,0 +1,83 @@
+.outdiv{
+    background-color: blue;
+    padding: 50px;
+    
+
+
+}
+.indiv{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 40px;
+}
+.indiv input{
+ padding: 10px;
+ 
+}
+.indiv button{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: blueviolet;
+    color: rgb(230, 232, 116);
+}
+.indiv h2{
+    color: blue;
+}
+
+.Top{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding:50px;
+    border-radius: 10px;
+}
+.Topleft{
+    background-color: purple;
+    
+}
+.Topright button{
+border:none;
+border-radius: 15px;
+background-color: purple;
+margin-left: 90%;
+
+}
+
+.Topright{
+    background-color: antiquewhite;
+
+}
+/* belka garya */
+.maindiv{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    border-radius: 10px;
+    
+
+}
+.leftdiv{
+    background-color: lightgrey;
+    border-radius: 10px;
+   
+}
+.middiv{
+    background-color: lightgrey;
+    border-radius: 10px;
+   
+}
+.rightdiv{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+img{
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+}
