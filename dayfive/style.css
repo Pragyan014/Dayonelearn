@@ -1,0 +1,68 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.topcontact{
+    background-color: blue;
+    padding:10%;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.topcontact a{
+    background-color: none;
+    color: white;
+    margin-top: 1%;
+    margin-left: 77%;
+}
+.fa-facebook{
+background-color: transparent;
+}
+.fa-facebook:hover{
+    color: rgb(202, 92, 37);
+    color: white;
+   
+}
+.Navbar{
+    background-color:antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 200px;
+    padding: 40px;
+   justify-content: center;
+   align-items: center;
+   top:0%;
+   position: sticky;
+}
+.Navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+}
+.Navbar li{
+    padding-right: 50px ;
+}
+.Navbar a{
+    text-decoration: none;
+}
+.donation{
+    background-color: rgba(232, 169, 53, 0.879);
+    color: azure;
+    padding: 10px;
+    border: none;
+   cursor: pointer;
+}
+
+.donation i{
+    margin-right: 5px;
+}
+.donation:hover{
+    background-color: transparent;
+    color: rgb(76, 13, 13);
+    border: solid black
+
+}
