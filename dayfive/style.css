@@ -5,32 +5,33 @@
 }
 .topcontact{
     background-color: blue;
-    padding:10%;
+    padding:10px;
     color: aliceblue;
     font-size: 20px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50%;
+    /* justify-content: space-between; */
 }
 .topcontact a{
     background-color: none;
     color: white;
-    margin-top: 1%;
-    margin-left: 77%;
+    margin-left:90%;
 }
 .fa-facebook{
 background-color: transparent;
 }
 .fa-facebook:hover{
     color: rgb(202, 92, 37);
-    color: white;
-   
+    color: white; 
 }
+/* ----------------Navbar------------------------------------------------*/
 .Navbar{
-    background-color:antiquewhite;
+    background-color:white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 200px;
-    padding: 40px;
+    padding: 30px;
    justify-content: center;
    align-items: center;
    top:0%;
@@ -49,20 +50,77 @@ background-color: transparent;
 .Navbar a{
     text-decoration: none;
 }
-.donation{
+button{
     background-color: rgba(232, 169, 53, 0.879);
     color: azure;
-    padding: 10px;
+    padding: 15px;
     border: none;
-   cursor: pointer;
+    cursor: pointer;
+    transition: 1s;
 }
-
 .donation i{
     margin-right: 5px;
 }
-.donation:hover{
+button:hover{
     background-color: transparent;
     color: rgb(76, 13, 13);
     border: solid black
-
+}
+/*---------------------------Aboutus------------------------------------*/
+.Aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    padding:50px;
+}
+.Aexplain{
+    font-size: 20px;
+    padding: 50px;
+    font-size: 25px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.Aboutus button{
+    width: 30%;
+}
+.Aexplain h3{
+    color: blue;
+}
+/* ---------------------------------------gallary-------------------------------- */
+.Gallary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.Hgallary{
+    padding: 2%;
+    font-size: 20px;
+    margin-right:75% ;
+}
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    padding: 20px;
+}
+img{
+    height:100%;
+    width: 100%;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.Gallary button{
+    align-items: center;
+    width: 15%;
+    background-color: rgb(167, 157, 157);
+    color: blue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.Gallary button:hover{
+    background-color: rgb(114, 113, 113);
+    border:none;
 }
