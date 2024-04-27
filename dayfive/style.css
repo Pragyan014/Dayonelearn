@@ -57,6 +57,11 @@ button{
     border: none;
     cursor: pointer;
     transition: 1s;
+    width: 30%;
+    border-radius: 5px;
+}
+.donation{
+    width: 80%;
 }
 .donation i{
     margin-right: 5px;
@@ -80,10 +85,7 @@ button:hover{
     /* display: flex;
     flex-direction: column; */
 }
-.Aboutus button{
-    width: 30%;
-}
-.Aexplain h3{
+h3{
     color: blue;
 }
 /* ---------------------------------------gallary-------------------------------- */
@@ -123,4 +125,29 @@ img{
 .Gallary button:hover{
     background-color: rgb(114, 113, 113);
     border:none;
+}
+/* <!-- ------------------------------help today------------------------------------- --> */
+.Helping{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    padding:50px;
+    align-items: center;
+}
+.Exhelping{
+    font-size: 20px;
+    padding: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.Exhelping button{
+    border: solid orange;
+    background-color: transparent;
+    color: orange;
+    padding: 20px;
+}
+.Exhelping button:hover{
+    background-color: orange !important;
+    color: white;
 }
