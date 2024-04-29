@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chitwan Manav Sewa Ashram</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="topcontact">
-        <h2>Contact us: 0987654321 </h2>
-       <a href="#"><i class="fab fa-facebook"></i></a>
+        <h2>Contact us: +977 9812345678 </h2>
+       <a href="#"><i class="fab fa-facebook-f"></i></a>
     </div>
     <!-- ------------------------------Navbar------------------------------------- -->
     <div class="Navbar">
-        <img src="" alt="loading..">
+        <img src="https://www.cmsa.org.np/images/logo.png" alt="loading..">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -22,9 +28,51 @@
             <li><a href="">Event</a></li>
             <li><a href="">Contact</a></li>
         </ul> 
-            <button class="donation"><i class="fa fa-heart"></i>Make donation</button>
+            <button><i class="fa fa-heart"></i>Make donation</button>
         </div>
     </div>
+    <!-- -------------------------------------imageslider------------------------------------ -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img style="width:100%;" src="https://www.cmsa.org.np/images/banners/nhh_1669901817.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://www.cmsa.org.np/images/banners/IMG_7164_1669900974.jpg" alt=""></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+      </script>
     <!-- ---------------------About us--------------------------------------- -->
     <div class="Aboutus">
         <img src="https://www.cmsa.org.np/images/oldhand.jpg" alt="loading..">
@@ -58,6 +106,60 @@
     </div>
     <img src="https://www.cmsa.org.np/images/6.jpeg" alt="">
 </div>
-<!-- ------------------------------------------------------------------- -->
+<!-- ---------------------------Helping Today---------------------------------------- -->
+<div class="service">
+    <div class="Hservice">
+        <h3>Helping Today</h3>
+        <h1>How we help people</h1>
+    </div>
+    <div class="helppeople">
+        <div class="food">
+            <i class="fa-solid fa-bowl-food"></i><br>
+            <h4>Healthy Food & Water</h4><br>
+            <p>Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+        </div>
+        <div class="health">
+            <i class="fa-solid fa-suitcase-medical"></i><br>
+            <h4>Health & Medicine</h4><br>
+            <p>We take care of your health. We regulary check up the health from expert doctors and provide medicine if needed and recommended by the doctors.</p>
+        </div>
+        <div class="home">
+            <i class="fa fa-home"></i><br>
+            <h4>Home</h4><br>
+            <p>We love to provide home for needy ones. Providing home will make us feel our organisation as our own home. We put our all effort to make you feel the Ashram as your own home.</p>
+        </div>
+    </div>
+</div>
+<!-- ----------------------------------------------footer---------------------------------------------------- -->
+<div class="footer">
+    <div class="lfooter">
+        <img src="https://www.cmsa.org.np/images/logo.png" alt="">
+        <p>Chitwan Manav Sewa Ashram is taking care of oldage and differently-abled people.</p>
+        <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="lmfooter">
+        <h3>Qucik Links</h3>
+        <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallary</a></li>
+        <li><a href="">Event</a></li>
+        <li><a href="">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="rmfooter">
+        <h3>Contact us</h3>
+        <ul>
+            <li><a href=""><i class="fa fa-location-dot"></i>Bharatpur-9,Chitwan</a></li>
+            <li><a href=""><i class="fa fa-phone"></i>+977 9812345678</a></li>
+            <li><a href=""><i class="fa fa-envelope"></i>manabsewa#gmail.com</a></li>
+        </ul>
+    </div>
+    <div class="rfooter">
+        <h3>Support</h3>
+        <h3>Get in touch with us if you wish to help the needy ones.</h3>
+        <button>Join us</button>
+    </div>
+</div>
 </body>
 </html>
