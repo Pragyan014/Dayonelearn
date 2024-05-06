@@ -62,18 +62,14 @@ ul{
 a{
     text-decoration: none;
 }
-button{
+.Navbar button{
     background-color: rgba(232, 169, 53, 0.879);
-    color: azure;
+    color: rgb(232, 240, 240);
     padding: 15px;
     border: none;
     cursor: pointer;
-    
-    width: 30%;
-    border-radius: 5px;
-}
-.Navbar button{
     width: 80%;
+    border-radius: 5px;
 }
 .fa-heart{
     margin-right: 5px;
@@ -89,17 +85,32 @@ button:hover{
     width: 100%;
     height: 600px;
   }
+.swiper img{
+    width:100%;
+}
 /*---------------------------Aboutus------------------------------------*/
 .Aboutus{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 40px;
-    padding:50px;
+    padding:30px;
 }
 .Aexplain{
     font-size: 20px;
     padding: 50px;
     font-size: 25px;
+}
+.Aboutus button{
+    background-color: rgba(232, 169, 53, 0.879);
+    color: rgb(232, 240, 240);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+}
+.Aboutus a{
+    color: white;
 }
 h3{
     color: blue;
@@ -108,22 +119,36 @@ h3{
 h4{
     margin-bottom: 10px;    
 }
+/* ------------------------------Aboutuspage--------------------------------------- */
+.textimg{
+    background-image: url(https://th.bing.com/th/id/OIP.xYRiDHZYP1C7Sc8BAL9RqwHaEo?w=284&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7://th.bing.com/th/id/OIP.huRBvuTQOkysbOEcTGPKXgHaEo?w=278&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7) ;
+    padding: 50px;
+    /* background-repeat: no-repeat; */
+    background : fit-content;
+    height: auto;
+    /* width: auto; */
+}
+.textimg h3{
+    color: aliceblue;
+}
 /* ---------------------------------------gallary-------------------------------- */
 .Gallary{
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 50px;
 }
 .Hgallary{
-    padding: 2%;
     font-size: 20px;
-    margin-right:75% ;
+    justify-content: left;
+    align-items: center;
+    border-left: solid blue 3px;
+    padding: 10px;
 }
 .image{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
+    grid-row-gap:10px ;
     padding: 20px;
 }
 img{
@@ -133,7 +158,10 @@ img{
     cursor: pointer;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.Gallary button{
+.Gallarybutton{
+    text-align: center;
+}
+.Gallarybutton button{
     align-items: center;
     width: 15%;
     background-color: rgb(167, 157, 157);
@@ -142,11 +170,15 @@ img{
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
+    /* margin-left: 40%; */
+    cursor: pointer;
 }
 .Gallary button:hover{
     background-color: rgb(114, 113, 113);
     border:none;
 }
+/* ----------------------------------------gallary page---------------------------------- */
+
 /* <!-- ------------------------------help today------------------------------------- --> */
 .Helping{
     display: grid;
@@ -166,10 +198,15 @@ img{
     background-color: transparent;
     color: orange;
     padding: 20px;
+    font-size: 15px;
+    width: 30%;
+}
+.Exhelping a{
+    color: orange;
 }
 .Exhelping button:hover{
     background-color: orange !important;
-    color: white;
+    color: antiquewhite;
 }
 /* ---------------------------service------------------------------------- */
 .service{
@@ -227,22 +264,108 @@ img{
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* background-color: rgb(29, 55, 167); */
+    background-color: rgb(29, 55, 167);
+    color: antiquewhite;
+    padding: 40px;
+    font-size: 20px;
 }
-/* .lmfooter{
-    display: flex;
-   flex-direction: column;
-   display: block;
-} */
-.lmfooter{
-    display: flex;
-   flex-direction: column;
-   display: block;
+.footer img{
+    width: 100px;
+    height: 100px;
 }
-.rmfooter{
+.About{
     display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   display: block;
-   font-size: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.menu a{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.menu h2{
+    color: aliceblue;
+    margin-bottom: 20px;    
+}
+.menu li{
+    margin-bottom: 10px;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.Contact h2{
+    color: aliceblue;
+    margin-bottom: 20px; 
+}
+.Contact li{
+    margin-bottom: 15px;
+}
+.Contact a{
+    color: aliceblue;
+}
+.Contact i{
+    margin-right: 10px;
+}
+.Help{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.Help h2{
+    margin-bottom: 15px;
+}
+.Help button{
+    margin-top: 10px;
+    background-color: rgba(232, 169, 53, 0.879);
+    color: rgb(232, 240, 240);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+}
+.copy{
+    background-color: rgb(29, 55, 167);
+    padding:20px;
+    color: aliceblue;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* window view */
+@media screen and (max-width: 1080px) {
+   
+    
+    
+        
+    }
+    
+    
+    
+    /* tablet view */
+    @media screen and (max-width: 768px) {
+     
+    }
+    
+    /* potrait view */
+    @media screen and (max-device-width: 480px) {
+
+     
+    }
+    /* landscape view */
+    @media screen and (max-device-width: 640px) 
+        and (orientation: landscape) {
+        
+        }
