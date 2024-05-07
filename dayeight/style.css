@@ -1,0 +1,10 @@
+.Navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: transparent;
+    padding: 20px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
