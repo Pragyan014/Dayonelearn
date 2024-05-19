@@ -1,10 +1,11 @@
-.Navbar{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+/* .Navbar{
+    display: flex;
+    flex-direction: row;
     background-color: transparent;
     padding: 20px;
+    justify-content: space-between;
 }
 .menu ul{
     display: flex;
     flex-direction: row;
-}
+} */
