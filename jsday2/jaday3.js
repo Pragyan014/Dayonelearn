@@ -55,9 +55,9 @@ const remove4=fruits.shift();
 const remove5=fruits.shift();
 const remove6=fruits.shift();
 
-const push=fruits.push("remove1","remove2","remove3","remove4","remove5");
+// const push=fruits.push("remove1","remove2","remove3","remove4","remove5");
 // const pushatfront=fruits.unshift("pragyan");
-console.log(fruits);
+// console.log(fruits);
 // console.log(fruits.includes("Guava"));
 // console.log(fruits.indexOf("Guava"));
 
