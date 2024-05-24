@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Taja khabar</h1>
+   <script>
+    fetch("https://newsdata.io/api/1/latest?apikey=pub_44745e73081944d92cc2d5af95c40d61c2d40&q=pizza")
+    .then((res)=>{
+        return res.json();
+    })
+    .then((data)=>{
+        const newnews = data;
+        console.log(newnews);
+        let newrows = "";
+        newnews.forEach((news)=>{
+            newrows +=`
+            
+            `;
+        })
+    })
+   </script>
+</body>
+</html>

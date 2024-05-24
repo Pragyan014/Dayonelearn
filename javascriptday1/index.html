@@ -25,17 +25,16 @@
     </table>
     <script>
         fetch("https://fakestoreapi.com/products/category/jewelery")
-        .then(res=>{
+        .then((res)=>{
             return res.json();
         })
-        .then(data=>{
-           
+        .then((data)=>{
             const newarray= data;
         let newrow = "";
         newarray.forEach(newdata=>{
             newrow += `<tr>
             <td>${newdata.id}</td>
-            <td>${newdata.title}</td>
+            <td> ${newdata.title}</td>
             <td>RS ${newdata.price}</td>
             <td>${newdata.category}</td>
             <td><img style="height:200px; width:200px; border-radius:50%;" src=${newdata.image}></td>
